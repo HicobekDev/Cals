@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #21006f;
+}
+h1{
+    text-align: center;
+    color: rgb(221, 221, 221);
+    font-size: 3em;
+}
+form{
+    margin-left: 35vw;
+    margin-top: 10vh;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    background-color: rgb(10, 0, 46);
+    border-radius: 12px;
+    box-shadow: 5px 5px 15px 2px rgba(148, 148, 148,.1);
+}
+table{
+    padding: 5% 10px;
+}
+#display{
+    margin: 15px 10px;
+    padding: 10px 4px;
+    font-size: 28px;
+    font-size: 28px;
+    width: 250px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 2px rgba(148, 148, 148,.1);
+}
+input[type=button]{
+    font-family: sans-serif;
+    padding: 0;
+      width: 65px;
+      height: 65px;
+      font-size: 28px;
+      background-color: rgb(10, 0, 46);
+color: #c4c4c4;
+opacity: .8;
+border: none;
+cursor: pointer;
+box-shadow: 5px 5px 15px 2px rgba(148, 148, 148,.1);
+font-family: 'Roboto', sans-serif;
+}
+input[type=button]:hover{   
+    color: rgb(0, 0, 0);
+    background: rgb(1, 68, 255);
+}
+/* input{
+    outline: none;
+} */
